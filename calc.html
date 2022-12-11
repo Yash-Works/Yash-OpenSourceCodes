@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head><meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Calculator
+        </title>
+    </head>
+    <body>
+        <form name="Calculator">
+            Num1: <input type="text" name="Number1">
+            Num2: <input type="text" name="Number2">
+            Result: <input type="text" name="Total">
+            <input type="button" value="Add" onclick="addition();">
+            <input type="button" value="Sub" onclick="subtract();">
+            <input type="button" value="Mul" onclick="multiply();">
+            <input type="button" value="Divide" onclick="divide();">
+        </form>
+    <script type="text/javascript">
+        function addition()
+        {
+            var a = Number(document.Calculator.Number1.value);
+            var b = Number(document.Calculator.Number2.value);
+            var sum = a + b;
+            document.Calculator.Total.value = sum;
+        }
+        function subtract()
+        {
+            var a = Number(document.Calculator.Number1.value);
+            var b = Number(document.Calculator.Number2.value);
+            var sub = a - b;
+            document.Calculator.Total.value = sub;
+        }
+        function subtract()
+        {
+            var a = Number(document.Calculator.Number1.value);
+            var b = Number(document.Calculator.Number2.value);
+            var sub = a - b;
+            document.Calculator.Total.value = sub;
+        }
+        function multiply()
+        {
+            var a = Number(document.Calculator.Number1.value);
+            var b = Number(document.Calculator.Number2.value);
+            var prd = a * b;
+            document.Calculator.Total.value = prd;
+        }
+        function divide()
+        {
+            var a = Number(document.Calculator.Number1.value);
+            var b = Number(document.Calculator.Number2.value);
+            var divide = a / b;
+            document.Calculator.Total.value = divide;
+        }
+        
+    </script>
+    </body>
+</html>
