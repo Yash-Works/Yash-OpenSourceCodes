@@ -1,0 +1,31 @@
+*{
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.calculator{
+    block-size: auto;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 40px;
+}
+.calc{
+    
+    padding-left: 43%;
+}
+table{
+    background-color: grey;
+}
+input[type="button"]{
+    border: solid black 3px;
+    width: 100%;
+}
+input[type="button"]:hover{
+    background-color: aqua;
+
+}
+#result{
+    border: solid black 5px;
+}
